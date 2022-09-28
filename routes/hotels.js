@@ -47,7 +47,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// !GET ALL
+// !GET ALL Hotels
 router.get("/", async (req, res) => {
   try {
     const hotels = await Hotel.find();
